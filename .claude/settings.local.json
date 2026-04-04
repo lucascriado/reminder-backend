@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(PGPASSWORD=1832 psql:*)",
+      "Read(//c/www/reminder-mcp-server/**)",
+      "Read(//c/www/reminder/**)",
+      "Bash(pip install:*)",
+      "Bash(python server/init_db.py)",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(node -e ':*)",
+      "Bash(ls C:/www/reminder/.env*)",
+      "Bash(npm run:*)",
+      "Bash(curl -s http://localhost:3002/health)",
+      "Bash(curl -s http://localhost:3002/api/clients)"
+    ]
+  }
+}
